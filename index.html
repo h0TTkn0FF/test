@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="root.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ </head>
+ <body>
+	<header class="header">
+		<img class="logo" src="pictures/LOGO_b.png" alt="logo">
+		<div class="name">
+			<h1>
+				Испытательный центр
+				ГК «Глобал ЭМ»
+			</h1>
+		</div>
+	</header>
+	<div class="slider">
+		<div class="slider-img">
+			<img src="./pictures/specgas.png" alt="img1">
+			<img src="./pictures/bastion.png" alt="img2">
+			<img src="./pictures/bau.jpeg" alt="img3">
+			<img src="./pictures/krast.png" alt="img4">
+			<img src="./pictures/lenrem.jpg" alt="img5">
+			<img src="./pictures/nipi.jpg" alt="img6">
+			<img src="./pictures/nkt.png" alt="img7">
+			<img src="./pictures/slav.jpg" alt="img8">
+		</div>
+	</div>
+	<section>
+		<div class="block1">
+			<div class="bg-image"></div>
+			<div class="nav">
+				<a id="item1" href="">О центре</a>
+				<a id="item2" href="">Услуги</a>
+				<a id="item3" href="">Документы</a>
+				<a id="item4" href="">Оборудование</a>
+				<a id="item5" href="">Новости</a>
+				<a id="item6" href="#foot">Контакты</a>
+			</div>
+			<div class="expl">
+				<div class="item1">
+					<h1>Испытательный центр Глобал ЭМ специализируется на:</h1>
+					<ul>
+						<li>физико-механических испытаниях строительных материалов, изделий и конструкций;</li>
+						<li>обследовании зданий и сооружений;</li>
+						<li>лабораторном сопровождении нового строительства;</li>
+						<li>судебной строительно-технической экспертизе.</li>
+					</ul>
+				</div>
+				<div class="item4">
+					<h1>Оборудование испытательного центра</h1>
+					<ul>
+						<li>Весы лабораторные и аналитические</li>
+						<li>Прессы испытательные</li>
+						<li>Приспособления к прессу для испытания на изгиб</li>
+						<li>Оборудование для измерения линейных размеров</li>
+						<li>Оборудование для измерения температуры и влажности</li>
+						<p> и так далее...</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="foot">
+		<div class="contact-box">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.0499243738038!2d30.32559207740964!3d59.98108195868132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633e4dc580001%3A0x33ddc05143e66f83!2z0JrQsNC90YLQtdC80LjRgNC-0LLRgdC60LDRjyDRg9C7LiwgNSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NDEwMA!5e0!3m2!1sru!2sru!4v1697932148438!5m2!1sru!2sru"
+				width="70%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+			</iframe>
+			<div class="contact">
+				<div>
+					<span class="material-symbols-outlined">phone_in_talk</span>
+					<span>8 (812) 987 60-10</span>
+				</div>
+				<div>
+					<span class="material-symbols-outlined">pin_drop</span>
+					<span>ул. Кантемировская, д.5, корп.5, лит. М</span>
+				</div>
+				<div class="socials">
+					<a href="https://vk.com/globalem2012"><img src="./pictures/vk.png" alt="soc1"></a>
+					<a href="https://instagram.com/global__em?igshid=120wvhgm25m7d"><img src="./pictures/inst.png" alt="soc2"></a>
+					<a href="ic@globalem.pro"><img src="./pictures/mail.png" alt="soc3"></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="privacy-policy">
+			<p>© Global EM, ООО “ГЭМ” 2012-2023. Права защищены. Политика конфиденциальности</p>
+		</div>
+	</footer>
+	<script>
+		// slider copy
+		var copy = document.querySelector('.slider-img').cloneNode(true);
+		var copy2 = document.querySelector('.slider-img').cloneNode(true);
+		document.querySelector('.slider').appendChild(copy);
+		document.querySelector('.slider').appendChild(copy2);
+
+	</script>
+ </body>
+</html>
